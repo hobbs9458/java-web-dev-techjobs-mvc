@@ -2,6 +2,8 @@ package org.launchcode.javawebdevtechjobsmvc.models;
 
 import java.util.Objects;
 
+//objects with just value and id
+
 public abstract class JobField {
     private int id;
     private static int nextId = 1;

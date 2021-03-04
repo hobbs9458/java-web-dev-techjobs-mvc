@@ -203,6 +203,8 @@ public class JobData {
         }
     }
 
+    //getters
+
     public static ArrayList<Employer> getAllEmployers() {
         loadData();
         allEmployers.sort(new NameSorter());
